@@ -14,7 +14,7 @@ const Navbar = ({bgcolor , orange, darkorange , dark , setDark}) => {
 
       <div className="flex flex-row gap-5 mt-4">
         <div>
-          <input className="h-[30px] w-[200px] bg-white text-gray-600 rounded-xl pl-2 border border-gray-300 focus:outline-none focus:border-2 focus:border-orange-300" type="text" placeholder="Search" />
+          <input className="h-[30px] bg-white text-gray-600 rounded-xl pl-2 border border-gray-300 focus:outline-none focus:border-2 focus:border-orange-300 max-sm:w-[50px]" type="text" placeholder="Search" />
         </div>
         <div>
           <button className="w-[50px] h-[30px] rounded-xl pl-3" style={{backgroundColor:darkorange}}>

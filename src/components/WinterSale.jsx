@@ -5,7 +5,7 @@ const WinterSale = ({ bgcolor, orange, darkorange, gray ,safed}) => {
   return (
     <div className="flex flex-row justify-evenly  pb-30 max-sm:flex-col max-sm:items-center max-sm:gap-6" style={{ backgroundColor: bgcolor }}>
       <div
-        className="h-[400px] w-[400px] rounded-2xl flex justify-center items-center "
+        className="max-h-[400px] max-w-[400px] rounded-2xl flex justify-center items-center "
         style={{ backgroundColor: darkorange }}>
         <img
           src="https://static.vecteezy.com/system/resources/thumbnails/050/817/775/small_2x/pretty-young-man-posing-with-shopping-bags-full-length-side-view-isolate-on-transparent-background-png.png"

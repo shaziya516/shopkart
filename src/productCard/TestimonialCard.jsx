@@ -30,7 +30,7 @@ const TestimonialCard = ({orange,safed}) => {
   },
 ];
   return (
-    <div className='h-[200px] w-[350px] bg-[#ffd092ff] mb-20 flex flex-col items-center justify-center rounded-3xl' style={{backgroundColor:orange}} >
+    <div className='p-4 text-center bg-[#ffd092ff] mb-20 flex flex-col items-center justify-center rounded-3xl' style={{backgroundColor:orange}} >
         <div className='h-[60px] w-[60px] rounded-full bg-pink-300' ></div>
         <h1 style={{color:safed}}>Sachin Tendulkar</h1>
         <p style={{color:safed}}>Lorem ipsum, dolor sit amet consectetur <br /> adipisicing elit. Esse, quem quam velit or <br /> praesentium  nbusnesci Iusto,!</p>
