@@ -1,5 +1,5 @@
 import React from "react";
-import { FaShopify } from "react-icons/fa6";
+import { FaShopify } from "react-icons/fa";
 import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = ({bgcolor , orange, darkorange , dark , setDark}) => {
