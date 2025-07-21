@@ -1,10 +1,10 @@
 import React from "react";
-import { FaShopify } from "react-icons/fa";
+import { FaShopify } from "react-icons/fa6";
 import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = ({bgcolor , orange, darkorange , dark , setDark}) => {
   return (
-    <nav className=" h-[60px] flex flex-row justify-between pr-30 pl-30 max-sm:shadow-lg " style={{backgroundColor:orange}}>
+    <nav className=" h-[60px] flex flex-row justify-between max-sm:shadow-lg " style={{backgroundColor:orange}}>
 
 
       <div className="flex flex-row pt-4 gap-1" >
